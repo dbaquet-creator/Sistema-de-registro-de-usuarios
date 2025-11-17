@@ -1,1 +1,61 @@
+# Propuestas de Mantenimiento para el Sistema de Registro de Usuarios
+
+## 1. Mantenimiento Correctivo
+Acciones destinadas a corregir errores que afectan el funcionamiento normal del sistema.
+
+### Propuestas:
+- Corregir fallos en la validación de formularios, como detección incorrecta de campos vacíos o formatos inválidos.
+- Resolver errores de comunicación con la base de datos, especialmente durante picos de uso o fallas de conexión.
+- Arreglar problemas en la encriptación de contraseñas, como incompatibilidades con librerías o algoritmos desactualizados.
+- Solucionar errores que impidan la creación del usuario, como duplicidad mal gestionada o mensajes incorrectos.
+- Reparar fallos de interfaz que afecten la visualización o envío de formularios en ciertos navegadores.
+
+---
+
+## 2. Mantenimiento Preventivo
+Acciones enfocadas en evitar fallos futuros y asegurar el buen funcionamiento a largo plazo.
+
+### Propuestas:
+- Actualizar periódicamente las librerías de seguridad, especialmente las relacionadas con hashing de contraseñas.
+- Realizar pruebas de carga periódicas para verificar que el sistema soporta un número creciente de usuarios.
+- Optimizar consultas a la base de datos para reducir tiempos de respuesta y evitar bloqueos.
+- Verificar integridad de datos almacenados para evitar corrupción o pérdida accidental.
+- Implementar monitoreo y alertas para detectar caídas, tiempos de respuesta anormales o intentos de acceso sospechosos.
+
+---
+
+## 3. Mantenimiento Perfectivo
+Acciones orientadas a mejorar desempeño, usabilidad o eficiencia del sistema.
+
+### Propuestas:
+- Refinar el diseño de la interfaz de registro para mejorar la experiencia del usuario y reducir errores de ingreso.
+- Añadir validaciones adicionales, como comprobación de contraseñas más seguras o captchas para evitar bots.
+- Optimizar el flujo de retroalimentación, mostrando mensajes claros y contextualizados al usuario.
+- Reducir el tiempo de carga del formulario mediante optimización del código y recursos.
+- Mejorar la estructura de la base de datos para permitir consultas más rápidas y escalables.
+
+---
+
+## 4. Mantenimiento Evolutivo
+Acciones para ampliar funcionalidades y adaptar el sistema a nuevas necesidades.
+
+### Propuestas:
+- Añadir módulo de inicio de sesión, recuperación de contraseña y verificación por correo.
+- Implementar autenticación de dos factores (2FA) para aumentar la seguridad.
+- Integrar inicio de sesión social (Google, Facebook, GitHub).
+- Crear panel de administración para gestionar usuarios, roles y permisos.
+- Incorporar auditorías o historiales de actividad para reforzar seguridad y cumplimiento normativo.
+- Permitir que los usuarios editen o actualicen su perfil, incluyendo cambio de contraseña.
+
+---
+
+## 5. Mantenimiento Adaptativo
+Acciones para adaptar el sistema a nuevos entornos tecnológicos o requerimientos externos.
+
+### Propuestas:
+- Actualizar el sistema para ser compatible con nuevas versiones del servidor o sistema operativo.
+- Migrar la base de datos a una tecnología más moderna o escalable, como pasar de SQLite a PostgreSQL.
+- Ajustar el sistema para cumplir nuevas normativas de protección de datos.
+- Optimizar el sistema para dispositivos móviles si se integra en un entorno web responsivo.
+- Adaptar el sistema para integrarse con APIs externas que validan identidad o correo electrónico.
 
